@@ -31,6 +31,9 @@ workspace fnd NAME [+dirs ARGS] [+files ARGS]
 # get command help
 workspace hlp [+usage]
 
+# initialize the .workspace directory
+workspace init
+
 # jump to a partictular workspace
 workspace jmp NAME
 
