@@ -1,32 +1,45 @@
 
-        ██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗███████╗██████╗  █████╗  ██████╗███████╗
-        ██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝
-        ██║ █╗ ██║██║   ██║██████╔╝█████╔╝ ███████╗██████╔╝███████║██║     █████╗  
-        ██║███╗██║██║   ██║██╔══██╗██╔═██╗ ╚════██║██╔═══╝ ██╔══██║██║     ██╔══╝  
-        ╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗███████║██║     ██║  ██║╚██████╗███████╗
-         ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝ ╚═════╝╚══════╝
+            ██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗███████╗██████╗  █████╗  ██████╗███████╗
+            ██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝
+            ██║ █╗ ██║██║   ██║██████╔╝█████╔╝ ███████╗██████╔╝███████║██║     █████╗  
+            ██║███╗██║██║   ██║██╔══██╗██╔═██╗ ╚════██║██╔═══╝ ██╔══██║██║     ██╔══╝  
+            ╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗███████║██║     ██║  ██║╚██████╗███████╗
+             ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝ ╚═════╝╚══════╝
                                                                            
 
-## About
+## What is ***workspace***?
 
-> A command line utility enabling a way to create and manage workspaces in the terminal.
-> Instead of having project folders all over the place, they can all be in one place.
-> All workspaces are put into a dedicated workspaces directory called **.workspace**
-> located in the users home folder which makes it easier to manage its contents.
+> **workspace** ***is a command line utility that allows your projects to***
+> ***live side-by-side. It enables manageable and maintianable projects by***
+> ***simplifying the ability to access and control each project and their contents.***
 
 ## Commands
 
-
 ```bash
-# create a new workspace
-workspace create <-d DIRECTORY | -f FILE> <NAME>
+# add contents to a workspace
+workspace add NAME [+dirs ARGS] [+files ARGS]
+
+# clear the trash or cache directory
+workspace clr [+trash] [+cache]
 
 # delete an existing workspace
-workspace delete <-d DIRECTORY | -f FILE> <NAME>
+workspace del NAME [+dirs ARGS] [+files ARGS]
 
-# get help on workspace commands and options
-workspace helper [-u] [COMMAND]
+# find contents in a particular workspace
+workspace fnd NAME [+dirs ARGS] [+files ARGS]
 
-# search a workspace for a file or directory
-workspace search <-d DIRECTORY | -f FILE> <NAME>
+# get command help
+workspace hlp [+usage]
+
+# jump to a partictular workspace
+workspace jmp NAME
+
+# create a new workspace
+workspace new NAME
+
+# restore / revert workspace changes
+workspace res NAME
+
+# track changes in a particular workspace
+workspace trk NAME [+stop]
 ```
