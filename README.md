@@ -11,36 +11,43 @@
 > ***live side-by-side. It enables manageable and maintianable projects by***
 > ***simplifying the ability to access and control each project and their contents.***
 
+# Why Bash as The Language of Choice?
+
+**Bash** simplifies the ability to work with the shell by leveraging it's built-in
+commands. Though, the plan is to also rewrite **workspaces** in a more performant
+language, bash is a great choice as workspaces involve creating, changing, and
+deleting directories.
+
 ## Commands
 
 ```bash
 # add contents to a workspace
-workspace add NAME [+dirs ARGS] [+files ARGS]
+workspaces add NAME [+dir ARG] [+file ARG]
 
 # clear the trash or cache directory
-workspace clr [+trash] [+cache]
+workspaces clr [+trash] [+cache]
 
 # delete an existing workspace
-workspace del NAME [+dirs ARGS] [+files ARGS]
+workspaces del NAME [+dir ARG] [+file ARG]
 
 # find contents in a particular workspace
-workspace fnd NAME [+dirs ARGS] [+files ARGS]
+workspaces fnd NAME [+dir ARG] [+file ARG]
 
 # get command help
-workspace hlp [+usage]
+workspaces hlp [+usage]
 
 # initialize the .workspace directory
-workspace init
+workspaces init
 
 # jump to a partictular workspace
-workspace jmp NAME
+workspaces jmp NAME
 
 # create a new workspace
-workspace new NAME
+workspaces new NAME
 
 # restore / revert workspace changes
-workspace res NAME
+workspaces res NAME
 
 # track changes in a particular workspace
-workspace trk NAME [+stop]
+workspaces trk NAME [+stop]
 ```
