@@ -21,14 +21,14 @@
     <summary><h2><strong>Installation</strong></h2></summary>
 
     ### Normal Installation
-    ```bash
-    # TODO
 
+    ``` bash
+    # TODO
     ```
 
     ### Build from Source
-    ```bash
-    # TODO
 
+    ``` bash
+    # TODO
     ```
 </details>
