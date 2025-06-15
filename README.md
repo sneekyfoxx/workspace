@@ -22,13 +22,13 @@
 
     ### Normal Installation
 
-    ``` bash
+    <code class='language-bash'>
     # TODO
-    ```
+    </code>
 
     ### Build from Source
 
-    ``` bash
+    <code class='language-bash'>
     # TODO
-    ```
+    </code>
 </details>
