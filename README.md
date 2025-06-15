@@ -6,8 +6,10 @@
 
 > **workspace** ***simplifies management and maintenance of projects by keeping them in one place***
 
+---
+
 <details open>
-    <summary><h1><strong>Requirements</strong></h1></summary>
+    <summary><h2><strong>Requirements</strong></h2></summary>
 
 - **Python >= v3.10**
 
@@ -15,12 +17,18 @@
 
 ---
 
-<details>
-    <summary><h1><strong>Installation</strong></h1></summary>
-    <details>
-        <summary><h3><strong>Build from Source</strong></h3></summary>
-    </details>
-    <details>
-        <summary><h3><strong>Recommended</strong></h3></summary>
-    </details>
+<details open>
+    <summary><h2><strong>Installation</strong></h2></summary>
+
+    ### Normal Installation
+    ```bash
+    # TODO
+
+    ```
+
+    ### Build from Source
+    ```bash
+    # TODO
+
+    ```
 </details>
