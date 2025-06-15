@@ -9,7 +9,7 @@
 ---
 
 <details open>
-    <summary><h2><strong>Requirements</strong></h2></summary>
+<summary><h2><strong>Requirements</strong></h2></summary>
 
 - **Python >= v3.10**
 
@@ -18,17 +18,15 @@
 ---
 
 <details open>
-    <summary><h2><strong>Installation</strong></h2></summary>
+<summary><h2><strong>Installation</strong></h2></summary>
 
-    ### Normal Installation
+### Normal Installation
+``` bash
+# TODO
+```
 
-    <code class='language-bash'>
-    # TODO
-    </code>
-
-    ### Build from Source
-
-    <code class='language-bash'>
-    # TODO
-    </code>
+### Build from Source
+``` bash
+# TODO
+```
 </details>
